@@ -1,0 +1,77 @@
+{
+  "_comment": "Edit this list, put the zips under <files>/addons and <files>/packs, then run: node tools/make-catalogs.mjs --files <dir> --base-url http://<file server>/launcher. Entries whose zip is missing are skipped with a warning. Addons must be on client-config/approved-addons.json.",
+  "addons": [
+    {
+      "type": "addon",
+      "name": "XIUI",
+      "version": "1.0",
+      "author": "Tirem",
+      "description": "Modern party list, target bar, player bar and cast bar.",
+      "links": { "Source": "https://github.com/tirem/XIUI" },
+      "file": "addons/XIUI-1.0.zip"
+    },
+    {
+      "type": "addon",
+      "name": "LuAshitacast",
+      "version": "1.0",
+      "author": "Thorny",
+      "description": "Lua-based automatic gear swapping, like GearSwap for Ashita.",
+      "links": { "Source": "https://github.com/ThornyFFXI/LuAshitacast" },
+      "file": "addons/LuAshitacast-1.0.zip"
+    },
+    {
+      "type": "addon",
+      "name": "tHotBar",
+      "version": "1.0",
+      "author": "Thorny",
+      "description": "On-screen hotbars for abilities, spells and items.",
+      "links": { "Source": "https://github.com/ThornyFFXI/tHotBar" },
+      "file": "addons/tHotBar-1.0.zip"
+    },
+    {
+      "type": "addon",
+      "name": "tCrossBar",
+      "version": "1.0",
+      "author": "Thorny",
+      "description": "Controller-friendly crossbar, great on the Steam Deck.",
+      "links": { "Source": "https://github.com/ThornyFFXI/tCrossBar" },
+      "file": "addons/tCrossBar-1.0.zip"
+    },
+    {
+      "type": "addon",
+      "name": "statustimers",
+      "version": "1.0",
+      "author": "Heals",
+      "description": "Timers for buffs and debuffs on you and your target.",
+      "links": { "Source": "https://github.com/HealsCodes/statustimers" },
+      "file": "addons/statustimers-1.0.zip"
+    },
+    {
+     "type": "addon",
+     "name": "TargetLines",
+     "version": "1.2",
+     "author": "jyouya",
+     "description": "Draws Final Fantasy XII style target lines during combat.",
+     "links": { "Source": "https://github.com/Jyouya/targetlines" },
+     "file": "addons/targetlines-1.2.zip"
+    },
+    {
+      "type": "plugin",
+      "name": "LegacyAC",
+      "version": "1.0",
+      "author": "Thorny",
+      "description": "Classic-style automatic gear swapping plugin.",
+      "links": { "Source": "https://github.com/ThornyFFXI/LegacyAC" },
+      "file": "addons/LegacyAC-1.0.zip"
+    }
+  ],
+  "packs": [
+    { "id": "nexthd", "name": "NextHD", "category": "Textures", "description": "HD texture pack.", "version": "1.0", "file": "packs/nexthd-1.0.zip" },
+    { "id": "nextlore", "name": "NextLore", "category": "Textures", "description": "Lore-friendly HD texture pack.", "version": "1.0", "file": "packs/nextlore-1.0.zip" },
+    { "id": "combined-maps-basic", "name": "Combined Maps: Basic", "category": "Maps", "description": "Combined in-game maps.", "version": "1.0", "file": "packs/combined-maps-basic-1.0.zip" },
+    { "id": "combined-maps-hd", "name": "Combined Maps: HD", "category": "Maps", "description": "Combined in-game maps in high resolution.", "version": "1.0", "file": "packs/combined-maps-hd-1.0.zip" },
+    { "id": "normal-maps-labeled", "name": "Normal Maps - Labeled", "category": "Maps", "description": "Original maps with labels.", "version": "1.0", "file": "packs/normal-maps-labeled-1.0.zip" },
+    { "id": "xiview-standard", "name": "XI View: Standard", "category": "UI", "description": "Updated menu and interface graphics.", "version": "2.5.3", "file": "packs/XiView.v2.5.3.normal.zip" },
+    { "id": "xiview-widescreen", "name": "XI View: Widescreen", "category": "UI", "description": "Updated interface graphics laid out for widescreen.", "version": "2.5.3", "file": "packs/XiView.v2.5.3.widescreen.zip" }
+  ]
+}

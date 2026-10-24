@@ -1,0 +1,2907 @@
+[
+ {
+  "name": "AbilityAnimation",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ACHelper",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ActiveMon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "addon_manager",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "advcheck",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Affinity",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "AHColors",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "allmaps",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Anglin",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Antiemote",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ArcaneAutomata",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ArcRecast",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "AreYouSure",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Artisan",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Ashitacast",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "AshitaFishAid",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Aspect",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "atreplace",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Attendance",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Audible",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "AutoFPS",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "AutoTrans",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "AzureSets",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Balloon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Balloon Story Addon",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "balloonblue",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Barfiller",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "barfiller2",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "BattleMod",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "BattleStations",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "bgm",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "BGMBard",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "BigMode",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Binder",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "BitsXP",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Blist",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "BLUAlert",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Blucheck",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "BluGuide",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Blumon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Blusets",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "BluSpells",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "boussole",
+  "programs": [
+   "Ashita"
+  ],
+  "condition": "Mob tracking, outgoing packet and widescan features must not be used"
+ },
+ {
+  "name": "BoxDestroyer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "BoxHelper",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "brokewatch",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Cadence",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "calc",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Cartographer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "CastDelay",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "cBind",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "cBlock",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "CfhBlock",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Chains (NerfOnline)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Chains (Sippius)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Chaintimer",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Chainy",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ChangeCall",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "charmed",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Chars",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "ChatFix",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "chathistoryplus",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ChatLink",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "chatlogfix",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ChatMan",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "chatmon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Chatty",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Checker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Checkmate",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "checkparam",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Chime",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Chronicle",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Claimbar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Clammy",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CleanCS",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "cleanup",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ClearColor",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Clearpartybars",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "clickfind",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Clock",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "ClockVana",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Colure",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CombatLog",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CompassLoc",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Config",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "conquest",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ConsoleBG",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "ConsolidatedUI",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Cookbook",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Cor Tracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Cosplay",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Craftbook",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CraftGuide",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Craftmon",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CraftStats",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Crossbar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Crosshair",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CSData",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CSVConverter",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CTimers",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "cudgel",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CurrentTime",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Customhud",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "customtarget",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "CutsceneAddonHider",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "DACompass",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "DashCam",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Deadzone",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "DeathTracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Debuff Tracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Debuffed",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "DebugZone",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Deeps (GreasyGearBox)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Deeps (Relliko)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "DelayMeNot",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Details",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Diagnostics",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "DigDig",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Digger",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Distance",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "DistancePlus",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Don't Drop The Soap",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "DParty",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "DrawDistance",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "DressMe",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "DressUp",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Drop",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Duration",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "DXUI",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "EasyNuke",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "easyTH",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Emotes",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "EnemyBar",
+  "programs": [
+   "Ashita"
+  ],
+  "condition": "Distance display must be off"
+ },
+ {
+  "name": "EnemyBar",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "enemybar2",
+  "programs": [
+   "Windower"
+  ],
+  "condition": "Distance display must be off"
+ },
+ {
+  "name": "EnemyBuffs",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "EnemyCastBar",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "EnemyList",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "ENMs",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Enternity",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "EnumMaker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Equipmon",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "EquipViewer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "EraDebuffed",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "EraDistancePlus",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "EraMobDrops",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "EraPointWatch",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "EraScoreboard",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "event13helper",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "EventTracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ExpBar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Expmon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "export_items",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "fancychat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FarmingSession",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FastCS",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "FastSwap",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ffocolor",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "FFXIChatlogMemloc",
+  "programs": [
+   "Standalone"
+  ]
+ },
+ {
+  "name": "ffxidbevents",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "ffxifeesh",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Fillmode",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Filterless",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Filters",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Find",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FindAll",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "FindItem",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FinishingMoves",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FishAid",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FishCap",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FishingCrashFix",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "FishingInfo",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "focustarget",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FPS",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "FreeMem",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Fush",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "gamepadfix",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Gametime",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "GBinder",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GearCheck",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GearInfo",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Gearlock",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GearSwap",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "GetInfo",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "gilledger",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "GilTracker",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "GlamourUI",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GoldDigger",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GoneFishin",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GPS",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Greed",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "GroupToPool",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GroupToSkill",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "GuildCompanion",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HardwareMouse",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HealBell",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HGather",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HideActions",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "HideConsole",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HideObs",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "HideParty",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HideUI",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Highlight",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "HitboxDisplay",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HitPoints",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "HTicks",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Hush",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Ibar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "IME",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ImGuiStyle",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ImRecast",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "indinope",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "InfoBar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "InfoBar",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "infoBoxes",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "InsertMob",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "InstaLS",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "InstantAH",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "InstantChat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "InventoryCounter",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "InventoryPrint",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "InventoryTracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "InvMon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "InvSpace",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "InvTracker",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Itemwatch",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Journal",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "jponry",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "JSE",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Juggler",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Kazenoeye",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "KParser",
+  "programs": [
+   "Standalone"
+  ]
+ },
+ {
+  "name": "LatentChecker",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "LegacyAC",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Libra",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Libs",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Linker",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Links",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "linuxfix",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "lockpick",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Logger",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Loggers",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "LoginCmd",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Logs",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "LogVendors",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Lookup",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "lootscope",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Lootwhore",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Lootz",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Lotomatic",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "lschat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "LuAshitacast",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "luashitaview",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MacroChanger",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "macrofix",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MacroMaster",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MapBlock",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Mapdot",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Me",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MergeTables",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Meteorologist",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "metrics",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Minimap",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "minimap-autozoom",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Minimap-helper",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "minimapcontrol",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Minimapmon",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Mipmap",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MobAnimation",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MobDB",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MobExtData",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MobModel",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MobPoolFix",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ModelInfo",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ModelSearch",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Momentum",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MountMuzzle",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Move",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "MoveItems",
+  "programs": [
+   "Windower"
+  ],
+  "condition": "Automatic stow must be off"
+ },
+ {
+  "name": "musictoggle",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NameColors",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Nameplate",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NBA Jam",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NextAuto",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NinjaTool",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NniTimer",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "NoCampaignMusic",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Nocombat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NoFishing",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NoLock",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "NoMount",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NoName",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Nostrum",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "npcbox",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "NpcGil_Phx",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "NyzulHelper",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "openmenus",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "PacketFlow",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PacketLogger",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Packrat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "paparazzi",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Parse",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Parse Action Packet",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ParseDat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Partybuffs",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "PartyHints",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "PartyPets",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Pbar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "pet_fix",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "PetInfo",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PetMe",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "petparty",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "PetsReborn",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PetTP",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "PhoenixFishTrack",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PhoenixMeter",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PlayerInfo",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "playernotes",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PluginManager",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "PocketPets",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Points",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "PointWatch",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Porter",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "posfind",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "position_manager",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "PriceCheck",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Pricer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "prism",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Pull",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "puller",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Pupsets",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "pupswap",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "PUPViewer",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "questtracker",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Quicksets",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Rcheck",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "RDMTracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ReadyCheck",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Recast",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Relicge",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Renamer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "REPL",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Respond",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Rest",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "RetroAch",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Rhombus",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "rolldistance",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "RollTracker",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "RSVP",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Runner",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ruptchat",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Satchel",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Scoreboard",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Screenshot",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Search",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "SearchQuotes",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Sequencer",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SetAffinity",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "SetBGM",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Sexchange",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Sh_tlist",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Shadows",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "shapes",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "shelltracker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "shortcuts",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Shorthand",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "shoutHelper",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Silence",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "SimpleLog (Kunomaclis)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SimpleLog (Spike2D)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Singlerace",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Skillchain",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SkillchainCalc",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Skillchains",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "SkillToPool",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Skillup tracker",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "SkillWatch",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SlowedChat",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SpeedChecker",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "SpellAnimation",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SpellBook",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "SpellCheck",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "SpellSelect",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SpellToPool",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "SSOrganizer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "StatSearch",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Status",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Statustimers",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "stepdialog",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Stfu",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Stopwatch",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "StratagemCounter",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "StratHelper",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Strats",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Stubborn",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Stylist",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Tab",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Targetbar",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "targetcursor",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "TargetInfo",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "targetinfoEx",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "TargetLines",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Taxi",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "tCrossBar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Text",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "ThfKnife",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "tHotBar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "THTest",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "THTracker",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Ticker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Tickle",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Timers",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Timestamp",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "TitleCheck",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Tokens",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Toon",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Tparty",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "TrackMeBooty",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Trainmon",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Translataru",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Translate",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "TreasurePool",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Treasury",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Trials",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "trigger",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "TrimSpells",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "TrueFPS",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Truesight",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "TrustProgression",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "tTimers",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "tTimers (Iparanza)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "tTimers (Rhaba)",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "TurnAround",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "UIBegone",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "UniquePets",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "UnityBlock",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Update",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Vana'Dial",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "VanaClock",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "VendingMachine",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "WarnMe",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "WatchEXP",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "WeatherChecker",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "WeatherMon",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Weeklier",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "where",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "whereismymouse",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Whispers",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "WinControl",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Wireframe",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "WXI Interface",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "XICamera",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "XIChats",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "XIDB",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "XIPivot",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "XITools",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "XIUI",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "XIVBar",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "xivbar2",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Xivcrossbar",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "XIVHotbar",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "XivParty",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "xivpetbar",
+  "programs": [
+   "Windower"
+  ]
+ },
+ {
+  "name": "Xonellines",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "Yield",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ZoneLines",
+  "programs": [
+   "Ashita"
+  ]
+ },
+ {
+  "name": "ZoneName",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "ZoneTimer",
+  "programs": [
+   "Ashita",
+   "Windower"
+  ]
+ },
+ {
+  "name": "Zoom",
+  "programs": [
+   "Ashita"
+  ]
+ }
+]

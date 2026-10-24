@@ -1,0 +1,98 @@
+{
+  "name": "goomba-xi-launcher",
+  "productName": "Goomba XI",
+  "version": "1.0.0",
+  "description": "Goomba XI launcher: Ashita v4 + xiloader with website sign-in, Windows and Linux (GE-Proton)",
+  "main": "./out/main/index.js",
+  "author": "Goomba XI",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "electron-vite preview",
+    "dist": "electron-vite build && electron-builder --win nsis --publish never",
+    "manifest": "node tools/make-manifest.mjs",
+    "build-client": "node tools/build-client.mjs",
+    "dist:msi": "electron-vite build && electron-builder --win msi --publish never",
+    "dist:portable": "electron-vite build && electron-builder --win portable --publish never",
+    "dist:all": "electron-vite build && electron-builder --win nsis msi portable --publish never",
+    "dist:linux": "electron-vite build && electron-builder --linux AppImage --publish never",
+    "client": "node tools/build-client.mjs"
+  },
+  "dependencies": {
+    "@fontsource/cinzel": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/yauzl": "^2.10.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^31.7.0",
+    "electron-builder": "^24.13.3",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  },
+  "build": {
+    "appId": "com.goombaxi.launcher",
+    "productName": "Goomba XI",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "out/**/*",
+      "resources/icon.png"
+    ],
+    "extraResources": [
+      {
+        "from": "launcher.config.json",
+        "to": "launcher.config.json"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "GoombaXI-Setup-${version}.${ext}",
+      "icon": "resources/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "artifactName": "GoombaXI-Setup-${version}.${ext}",
+      "shortcutName": "Goomba XI"
+    },
+    "msi": {
+      "oneClick": false,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "artifactName": "GoombaXI-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "GoombaXI-Portable-${version}.${ext}"
+    },
+    "publish": [],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game",
+      "synopsis": "Launcher for the Goomba XI FINAL FANTASY XI server",
+      "icon": "resources/icon.png"
+    },
+    "appImage": {
+      "artifactName": "GoombaXI-${version}-x86_64.AppImage"
+    }
+  }
+}

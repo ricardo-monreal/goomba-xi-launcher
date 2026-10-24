@@ -1,0 +1,42 @@
+{
+  "clientMode": "bundled",
+  "clientLanguage": "US",
+  "serverId": "goomba",
+  "serverName": "Goomba XI",
+  "serverHost": "192.168.1.50",
+  "websiteUrl": "http://192.168.1.50",
+  "registerUrl": "http://192.168.1.50/register",
+  "accountUrl": "http://192.168.1.50/account",
+  "allowAccountCreation": true,
+  "manifestUrl": "http://192.168.1.51/launcher/client/manifest.json",
+  "newsUrl": "http://192.168.1.51/launcher/news.json",
+  "addonCatalogUrl": "http://192.168.1.51/launcher/addons.json",
+  "pivotCatalogUrl": "http://192.168.1.51/launcher/pivot.json",
+  "links": {
+    "Website": "http://192.168.1.50"
+  },
+  "hairpin": false,
+  "ports": {},
+  "requiredPlugins": [
+    "thirdparty"
+  ],
+  "defaultPlugins": [
+    "thirdparty",
+    "screenshot"
+  ],
+  "requiredAddons": [],
+  "defaultAddons": [
+    "distance",
+    "fps",
+    "timestamp"
+  ],
+  "requiredOverlays": [
+    "era"
+  ],
+  "theme": "goomba",
+  "linux": {
+    "protonVersion": "GE-Proton11-5",
+    "protonUrl": "",
+    "umuUrl": ""
+  }
+}

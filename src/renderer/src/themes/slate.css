@@ -1,0 +1,40 @@
+/* Option 2 · "slate": #F1F6F9 · #9BA4B5 · #394867 · #212A3E (colorhunt.co/palette/f1f6f9394867212a3e9ba4b5),
+   #212A3E background. #394867 is too close to the background for buttons (1.6:1), so it's used for borders and cards,
+   and buttons use #9BA4B5 with dark text. Text pairs meet WCAG AA: text 13:1, muted 5–6:1, button text 5.7:1. */
+:root[data-theme='slate'] {
+  --bg: #212a3e;
+  --side: #1a2132;
+  --panel: #2a344b;
+  --panel-2: #323d56;
+  --panel-on: #303b55;
+  --field: #1a2132;
+  --line: #394867;
+  --line-2: #6b7a99;
+  --text: #f1f6f9;
+  --muted: #a7afbf;
+  --accent: #9ba4b5;          /* buttons, filled chips */
+  --accent-hover: #b3bbc9;
+  --accent-ink: #212a3e;      /* text on --accent */
+  --accent-text: #c3cad6;     /* links, dates, active tabs, checked boxes */
+  --accent-soft: rgba(155, 164, 181, 0.14);
+  --focus: rgba(195, 202, 214, 0.35);
+  --danger: #f08a80;
+  --ok: #7fd19b;
+  --shadow: rgba(0, 0, 0, 0.35);
+  --nav-hover: rgba(255, 255, 255, 0.05);
+  --crystal-a: #ffffff;
+  --crystal-b: #f1f6f9;
+  --crystal-c: #9ba4b5;
+  --pad-body: #9ba4b5;
+  --pad-detail: #8790a3;
+  --pad-well: #8a93a6;
+  --pad-stroke: #394867;
+  --pad-button: #394867;
+  --pad-stick: #212a3e;
+  --pad-label: #f1f6f9;
+  --tag-bg: #1a2132;
+  --tag-stroke: rgba(241, 246, 249, 0.25);
+  --tag-text: #f1f6f9;
+  --tag-muted-bg: rgba(26, 33, 50, 0.8);
+  color-scheme: dark;
+}

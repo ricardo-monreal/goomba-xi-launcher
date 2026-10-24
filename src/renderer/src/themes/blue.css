@@ -1,0 +1,39 @@
+/* Option 1 · "blue": #F9F7F7 · #DBE2EF · #3F72AF · #112D4E (Color Hunt), navy background.
+   Text pairs meet WCAG AA: text 13:1, muted 5–8:1, white on buttons 4.96:1, links 5.5:1. */
+:root[data-theme='blue'] {
+  --bg: #112d4e;
+  --side: #0c2340;
+  --panel: #173a63;
+  --panel-2: #1d4472;
+  --panel-on: #1b416d;
+  --field: #0d2542;
+  --line: #24507f;
+  --line-2: #3f72af;
+  --text: #f9f7f7;
+  --muted: #a9b8d0;
+  --accent: #3f72af;          /* buttons, filled chips */
+  --accent-hover: #36639a;
+  --accent-ink: #ffffff;      /* text on --accent */
+  --accent-text: #7fa6db;     /* links, dates, active tabs, checked boxes */
+  --accent-soft: rgba(63, 114, 175, 0.18);
+  --focus: rgba(127, 166, 219, 0.35);
+  --danger: #f08a80;
+  --ok: #7fd19b;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --nav-hover: rgba(255, 255, 255, 0.06);
+  --crystal-a: #ffffff;
+  --crystal-b: #dbe2ef;
+  --crystal-c: #3f72af;
+  --pad-body: #dbe2ef;
+  --pad-detail: #b9c6dd;
+  --pad-well: #c3cee3;
+  --pad-stroke: #3f72af;
+  --pad-button: #2b5384;
+  --pad-stick: #112d4e;
+  --pad-label: #f9f7f7;
+  --tag-bg: #0c2340;
+  --tag-stroke: rgba(219, 226, 239, 0.3);
+  --tag-text: #f9f7f7;
+  --tag-muted-bg: rgba(12, 35, 64, 0.75);
+  color-scheme: dark;
+}

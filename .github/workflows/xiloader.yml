@@ -1,0 +1,40 @@
+# Builds xiloader from the Phoenix project (phoenixffxi/xiloader: the version that sends the
+# launch-token sign-in the launcher uses; the Goomba XI server accepts it through
+# goomba-xi-server/patches/0001-launch-token-login.patch) as a 32-bit Windows program. Run it from the Actions tab, then put the
+# xiloader.exe artifact in vendor/ before running tools/build-client.mjs.
+name: xiloader
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: phoenixffxi/xiloader commit, tag or branch
+        default: 806d1c79a3eef254572b56e069ba0ddd291b3ecf
+        required: true
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: phoenixffxi/xiloader
+          ref: ${{ github.event.inputs.ref }}
+          submodules: recursive
+      - name: Configure
+        run: cmake -DCMAKE_BUILD_TYPE=Release -S . -B build -A Win32
+      - name: Build
+        run: cmake --build build --config Release
+      - name: Collect
+        shell: pwsh
+        run: |
+          # Phoenix's CMakeLists writes the exe to the source root, not the build folder.
+          $exe = Get-Item xiloader.exe -ErrorAction SilentlyContinue
+          if (-not $exe) { $exe = Get-ChildItem -Recurse -Path build -Filter xiloader.exe | Select-Object -First 1 }
+          if (-not $exe) { throw 'xiloader.exe was not built' }
+          New-Item -ItemType Directory -Force out | Out-Null
+          Copy-Item $exe.FullName out/xiloader.exe
+      - uses: actions/upload-artifact@v4
+        with:
+          name: xiloader-phoenix
+          path: out/xiloader.exe

@@ -1,0 +1,38 @@
+/* Goomba XI: midnight indigo with an ember-gold accent, matching the website. */
+:root[data-theme='goomba'] {
+  --bg: #0c0e1a;
+  --side: #0a0c18;
+  --panel: #161a33;
+  --panel-2: #1c2140;
+  --panel-on: #1e2347;
+  --field: #0a0c18;
+  --line: #2a3060;
+  --line-2: #3b437d;
+  --text: #ece9f6;
+  --muted: #9a97b8;
+  --accent: #e8a53d;          /* buttons, filled chips */
+  --accent-hover: #f5c46d;
+  --accent-ink: #1a1206;      /* text on --accent */
+  --accent-text: #f5c46d;     /* links, active tabs, checked boxes */
+  --accent-soft: rgba(232, 165, 61, 0.14);
+  --focus: rgba(232, 165, 61, 0.3);
+  --danger: #ff7a73;
+  --ok: #5fd39a;
+  --shadow: rgba(0, 0, 0, 0.45);
+  --nav-hover: rgba(255, 255, 255, 0.05);
+  --crystal-a: #fff3d6;
+  --crystal-b: #f5c46d;
+  --crystal-c: #c46f1e;
+  --pad-body: #6f63a8;
+  --pad-detail: #5b5090;
+  --pad-well: #4a4078;
+  --pad-stroke: #2a2450;
+  --pad-button: #2a2450;
+  --pad-stick: #0c0e1a;
+  --pad-label: #ece9f6;
+  --tag-bg: #0a0c18;
+  --tag-stroke: rgba(236, 233, 246, 0.25);
+  --tag-text: #ece9f6;
+  --tag-muted-bg: rgba(10, 12, 24, 0.8);
+  color-scheme: dark;
+}

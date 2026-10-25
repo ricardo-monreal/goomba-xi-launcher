@@ -53,6 +53,8 @@ Other keys (ports, hairpin, script binds and commands, `verifyLogin`, `allowAcco
 
 ## 2. Build the client (once per game update)
 
+A beginner-friendly walkthrough of steps 2 and 3, with every command for a Windows PC, is in the server repository: [docs/client-and-launcher.md](https://github.com/ricardo-monreal/goomba-xi-server/blob/main/docs/client-and-launcher.md).
+
 On a Windows PC (or any machine with the files copied over):
 
 1. **A clean, fully patched retail install.** Install FFXI from Square Enix, update it with PlayOnline's *Check Files*, and never log into a real account with it. The server's `CLIENT_VER` (`/opt/goomba/server/settings/default/login.lua` on the game server) must match.

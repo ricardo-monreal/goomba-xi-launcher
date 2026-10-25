@@ -2,7 +2,7 @@
 // Points launcher.config.json (and the sample news file) at your Goomba XI servers, so you don't
 // have to edit every URL by hand before building the launcher.
 //
-//   node tools/configure.mjs --server 192.168.1.50 --files http://192.168.1.51
+//   node tools/configure.mjs --server 10.2.5.64 --files http://10.2.5.65
 //   node tools/configure.mjs --server goomba-xi.com --website https://goomba-xi.com --files https://files.goomba-xi.com
 //
 //   --server   game server address (the login server; also the website on a home network)

@@ -30,7 +30,7 @@ The launcher for the **Goomba XI** FINAL FANTASY XI server, for **Windows** and 
 `launcher.config.json` is bundled into the installer. Point it at your servers with one command (it rewrites every URL below):
 
 ```bash
-node tools/configure.mjs --server 192.168.1.50 --files http://192.168.1.51
+node tools/configure.mjs --server 10.2.5.64 --files http://10.2.5.65
 node tools/configure.mjs --show          # what it points at now
 ```
 
@@ -40,7 +40,7 @@ With a domain later: `--server goomba-xi.example --website https://goomba-xi.exa
 | --- | --- |
 | `serverName`, `serverId` | `Goomba XI`, `goomba` (names the Ashita boot profile). |
 | `serverHost` | Hostname of the game server (login server). |
-| `websiteUrl` | `http://192.168.1.50` on a home network. Turns on website sign-in, the character list and launch tokens. Leave empty to sign in directly against the login server instead. |
+| `websiteUrl` | `http://10.2.5.64` on a home network. Turns on website sign-in, the character list and launch tokens. Leave empty to sign in directly against the login server instead. |
 | `registerUrl`, `accountUrl` | Website pages for **Create account** and the account button. |
 | `manifestUrl`, `newsUrl`, `addonCatalogUrl`, `pivotCatalogUrl` | Files on the file server (see section 4). |
 | `requiredOverlays` | `["era"]`: the Era-DATs overlay folder shipped in the client, always on and loaded before cosmetic packs. |
@@ -115,7 +115,7 @@ icons/items/<id>.png           item icons for the website (goomba-xi-web scripts
 Catalogs: list addons and packs in `file-server/catalog-sources.json`, put the zips in `addons/` and `packs/`, then:
 
 ```bash
-node tools/make-catalogs.mjs --files /srv/goomba/files/launcher --base-url http://192.168.1.51/launcher
+node tools/make-catalogs.mjs --files /srv/goomba/files/launcher --base-url http://10.2.5.65/launcher
 ```
 
 It fills in size and SHA-256 for every zip, skips missing ones, and refuses addons that aren't approved. Only host packs and addons whose licence allows it, and credit their authors with `author` and `links`.

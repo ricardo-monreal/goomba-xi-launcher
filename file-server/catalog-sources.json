@@ -25,6 +25,17 @@
     },
     {
       "type": "addon",
+      "name": "MobDB",
+      "version": "1.26",
+      "author": "Thorny",
+      "description": "On-screen monster info: a target's drops, stealable items, spawn points and stats. Imports the server's own data.",
+      "links": {
+        "Source": "https://github.com/ThornyFFXI/mobdb"
+      },
+      "file": "addons/mobdb-1.26.zip"
+    },
+    {
+      "type": "addon",
       "name": "tHotBar",
       "version": "1.0",
       "author": "Thorny",

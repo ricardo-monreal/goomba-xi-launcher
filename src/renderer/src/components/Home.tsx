@@ -1,6 +1,5 @@
 import { FormEvent, useCallback, useEffect, useRef, useState } from 'react'
 import AccountPanel from './AccountPanel'
-import BrandMark from './BrandMark'
 import { formatBytes, formatDuration } from '../format'
 import type { AppState, NewsItem, PatchProgress, UpdateCheck, UserSettings, WebMe } from '../../../shared/types'
 
@@ -188,10 +187,6 @@ export default function Home({ state, me, save, refresh, refreshMe }: Props): JS
 
   return (
     <div className="home">
-      <div className="home-art" aria-hidden>
-        <BrandMark className="home-mark" />
-      </div>
-
       <div className="home-main">
         <div className="wordmark">
           GOOMBA <span>XI</span>

@@ -5,7 +5,7 @@ import type { LaunchRequest, NewsItem, UpdateCheck, UserSettings } from '../shar
 import { changePassword, createAccount, validateCredentials, verifyLogin } from './account'
 import { scanAddons } from './ashita'
 import { loadLauncherConfig, loadSettings, saveSettings } from './config'
-import { clearPassword, clearSession, loadPassword, loadSession, savePassword, saveSession } from './credentials'
+import { clearPassword, clearSession, initCredentialStorage, loadPassword, loadSession, savePassword, saveSession } from './credentials'
 import { checkPrereqs, detectFfxi } from './ffxi'
 import { cleanupCredentialFiles, launchGame } from './launch'
 import { CancelledError, checkForUpdates, runUpdate } from './patcher'
@@ -21,6 +21,14 @@ const config = loadLauncherConfig()
 // Big Linux runtimes (GE-Proton, umu) go to ~/.local/share/<app>/runtimes, not the settings folder.
 setWinetricksUrl(config.linux.winetricksUrl)
 if (!isWindows) setRuntimeRoot(join(process.env.XDG_DATA_HOME || join(app.getPath('home'), '.local', 'share'), app.getName(), 'runtimes'))
+
+// Steam Deck / gamescope (Game Mode) delivers each key press twice to a native-Wayland Electron
+// window, so typed text is doubled ("1" shows as "11"). Forcing the X11/XWayland backend there
+// avoids it. Must run before the app is ready. Desktop sessions keep their default backend.
+if (!isWindows && (process.env.GAMESCOPE_WAYLAND_DISPLAY || /gamescope/i.test(process.env.XDG_CURRENT_DESKTOP || '') || process.env.SteamDeck === '1' || process.env.SteamGamepadUI === '1')) {
+  app.commandLine.appendSwitch('ozone-platform', 'x11')
+}
+
 let win: BrowserWindow | null = null
 
 function createWindow(): void {
@@ -450,6 +458,9 @@ app.on('before-quit', (e) => {
   }
 })
 
-app.whenReady().then(createWindow)
+app.whenReady().then(() => {
+  initCredentialStorage()
+  createWindow()
+})
 app.on('window-all-closed', () => app.quit())
 app.on('will-quit', cleanupCredentialFiles)

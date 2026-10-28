@@ -3,7 +3,23 @@ import { existsSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 // Secrets are encrypted with the OS keychain (DPAPI on Windows, the Secret Service/KWallet on
-// Linux) via safeStorage. Where no keychain is available they are not stored at all.
+// Linux) via safeStorage. On Linux without a keyring — notably the Steam Deck in Game Mode, where
+// no Secret Service runs — we fall back to safeStorage's plaintext mode so "remember me" still
+// works (the file is obfuscated and mode 0600, but not keychain-grade; it never leaves the device).
+// Call initCredentialStorage() once after the app is ready, before any save/load.
+let ready = false
+
+export function initCredentialStorage(): void {
+  if (ready) return
+  ready = true
+  try {
+    if (process.platform === 'linux' && !safeStorage.isEncryptionAvailable()) {
+      safeStorage.setUsePlainTextEncryption(true)
+    }
+  } catch {
+    // Older Electron without plaintext opt-in: secrets just won't persist here.
+  }
+}
 
 function save(name: string, value: string): void {
   if (!safeStorage.isEncryptionAvailable()) return

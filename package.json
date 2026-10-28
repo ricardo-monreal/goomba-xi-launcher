@@ -1,7 +1,7 @@
 {
   "name": "goomba-xi-launcher",
   "productName": "Goomba XI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Goomba XI launcher: Ashita v4 + xiloader with website sign-in, Windows and Linux (GE-Proton)",
   "main": "./out/main/index.js",
   "author": "Goomba XI",

@@ -206,13 +206,16 @@ export function planCopy(root: string, item: CatalogItem): [string, string][] {
     return plan
   }
 
-  // addon
-  if (files.some((f) => lower(f) === `${lower(item.name)}.lua`)) {
-    plan.push([dir, join('addons', item.name)])
+  // addon: install into a folder named exactly like the addon's own <name>.lua, so the folder
+  // and the lua inside it match. Ashita expects addons/<name>/<name>.lua, and on case-sensitive
+  // Linux a mismatch (e.g. addons/MobDB holding mobdb.lua) means the addon is never found.
+  const luaFile = files.find((f) => lower(f) === `${lower(item.name)}.lua`)
+  if (luaFile) {
+    plan.push([dir, join('addons', luaFile.replace(/\.lua$/i, ''))])
     return plan
   }
   const folder = dirs.find((d) => lower(d) === lower(item.name))!
-  plan.push([join(dir, folder), join('addons', item.name)])
+  plan.push([join(dir, folder), join('addons', folder)])
   return plan
 }
 

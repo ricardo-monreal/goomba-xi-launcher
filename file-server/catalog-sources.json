@@ -4,13 +4,13 @@
     {
       "type": "addon",
       "name": "XIUI",
-      "version": "1.0",
+      "version": "1.8.4",
       "author": "Tirem",
-      "description": "Modern party list, target bar, player bar and cast bar.",
+      "description": "A modern, configurable HUD: party list, target and player bars, a cast bar and more, managed in-game with /xiui.",
       "links": {
         "Source": "https://github.com/tirem/XIUI"
       },
-      "file": "addons/XIUI-1.0.zip"
+      "file": "addons/XIUI-1.8.4.zip"
     },
     {
       "type": "addon",
